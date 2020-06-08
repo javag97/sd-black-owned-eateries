@@ -1,0 +1,13 @@
+{# This will export the navigation data to json so it can be consumed client side! #}
+[
+  {% for item in restaurants.places  %}
+    {
+      "name": "{{ item.name }}",
+      "neighborhood": "{{ item.link }}",
+      "food-type": "{{ item.foodtype }}",
+      "address": "{{ item.address }}",
+      "rating": "{{ item.rating }}",
+      "site": "{{ item.site }}"
+    }{{ ',' if not loop.last }}
+  {% endfor  %}
+]

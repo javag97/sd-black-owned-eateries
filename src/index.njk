@@ -1,13 +1,18 @@
 ---
-title: Homepage
+title: Black Owned Eateries San Diego
 ---
 
 {% extends 'page.njk' %}
 
 {% block body %}
-  <div class="max-w-4xl mx-auto p-8">
-    <h1 class="h1">{{ title }}</h1>
-    <article data-message></article>
-    <article data-navigation></article>
+  <aside class="fixed left-0 w-64 py-8 pl-6 h-screen">
+    <h1 class="h1 leading-tight">{{ title }}</h1>
+    <p class="p py-8 leading-snug underline"><a href="https://www.google.com/maps/d/u/0/viewer?hl=en&ll=32.76163074276532%2C-117.14613475000002&z=11&mid=1DGmSMBDbaHWI4y6F-prU_3nVuR2HYDuz" target="_blank">Map of all known black-owned restaurants in San Diego.</a></p>
+    <p>Tip Well. Be Kind.</p>
+    <p class="absolute font-bold bottom-0 pb-8">Black Lives Matter 🖤</p>
+  </aside>
+  <div class=" mx-auto p-8 pl-64">
+    <section data-restaurants> </section>
   </div>
+
 {% endblock %}

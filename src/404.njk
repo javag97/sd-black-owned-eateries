@@ -1,5 +1,5 @@
 ---
-title: '404: Page Not Found'
+title: We're unable to find the page you're looking for.
 permalink: /404.html
 ---
 
@@ -7,6 +7,7 @@ permalink: /404.html
 
 {% block body %}
   <div class="max-w-4xl mx-auto p-8">
-    <h1 class="h1">{{ title }}</h1>
+    <h1 class="leading-tight text-6xl font-bold">{{ title }}</h1>
+    <p class="pt-8"><a class="p underline" href="./">Go Back Home</a></p>
   </div>
 {% endblock %}

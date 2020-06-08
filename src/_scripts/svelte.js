@@ -1,6 +1,5 @@
 import { run } from './helpers'
-import Message from './message.svelte'
-import Navigation from './navigation.svelte'
+import Restaurant from './restaurant.svelte';
 
-run('[data-message]', (target) => new Message({ target }))
-run('[data-navigation]', (target) => new Navigation({ target }))
+run('[data-restaurants]', (target) => new Restaurant({ target }))
+
