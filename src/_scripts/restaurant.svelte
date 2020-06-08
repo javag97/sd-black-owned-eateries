@@ -5,15 +5,11 @@
 
   export async function getRestaurantJson() {
     const response = await fetch('/api/restaurant.json')
-    console.log(response);
     const data = await response.json()
-    console.log(data)
     restaurants = data
-
     return data;
   }
   getRestaurantJson()
-  console.dir("test" + restaurants)
 
 </script>
 
