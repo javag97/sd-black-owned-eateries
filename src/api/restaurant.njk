@@ -3,9 +3,10 @@
   {% for item in restaurants.places  %}
     {
       "name": "{{ item.name }}",
-      "neighborhood": "{{ item.link }}",
-      "food-type": "{{ item.foodtype }}",
+      "neighborhood": "{{ item.neighborhood }}",
+      "foodType": "{{ item.foodType }}",
       "address": "{{ item.address }}",
+      "address2": "{{ item.address2 }}",
       "rating": "{{ item.rating }}",
       "site": "{{ item.site }}"
     }{{ ',' if not loop.last }}

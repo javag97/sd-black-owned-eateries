@@ -1,228 +1,375 @@
 module.exports = {
   places: [
-     {
-        "name": "Felix BBQ with Soul",
-        "neighborhood": "Oceanside",
-        "food-type": "BBQ / Soul",
-        "address": "3616 Ocean Ranch Blvd, Oceanside, CA 92056",
-        "rating": "★★★★",
-        "site": "https://www.felixsbbq.com/"
-     },
-     {
-        "name": "SMACK’N Guamanian Grill",
-        "neighborhood": "Miramar",
-        "food-type": "Guamanian",
-        "address": "506 Miramar Rd.​​​​​​​ San Diego, CA 92126",
-        "rating": "★★★★",
-        "site": "https://www.yelp.com/biz/smackn-guamanian-grill-san-diego"
-     },
-     {
-        "name": "Perky's South African Food",
-        "neighborhood": "Kearny Mesa",
-        "food-type": "South African, Pies",
-        "address": "8280 Clairemont Mesa Blvd",
-        "rating": "★★★★",
-        "site": "http://www.perkysfoods.com/"
-     },
-     {
-        "name": "One WorldBeat Cafe",
-        "neighborhood": "Balboa Park",
-        "food-type": "Caribbean, Vegan",
-        "address": "2100 Park Blvd, San Diego, CA 92101",
-        "rating": "★★★★★",
-        "site": "https://www.yelp.com/biz/world-beat-cafe-san-diego"
-     },
-     {
+    {
       "name": "Felix BBQ with Soul",
       "neighborhood": "Oceanside",
-      "food-type": "BBQ / Soul",
-      "address": "3616 Ocean Ranch Blvd, Oceanside, CA 92056",
-      "rating": "★★★★",
+      "foodType": "BBQ / Soul",
+      "address": "3616 Ocean Ranch Blvd",
+      "address2": "Oceanside, CA 92056",
+      "yelpRating": "★★★★✰",
+      "delivery": "Grubhub / Doordash / Postmates",
+      "takeout": "Yes",
       "site": "https://www.felixsbbq.com/"
-   },
-   {
+    },
+    {
       "name": "SMACK’N Guamanian Grill",
       "neighborhood": "Miramar",
-      "food-type": "Guamanian",
-      "address": "506 Miramar Rd.​​​​​​​ San Diego, CA 92126",
-      "rating": "★★★★",
+      "foodType": "Guamanian",
+      "address": "506 Miramar Rd",
+      "address2": "San Diego, CA 92126",
+      "yelpRating": "★★★★✰",
+      "delivery": "Doordash",
+      "takeout": "Yes",
       "site": "https://www.yelp.com/biz/smackn-guamanian-grill-san-diego"
-   },
-   {
-      "name": "Perky's South African Food",
+    },
+    {
+      "name": "Perky’s South African Food",
       "neighborhood": "Kearny Mesa",
-      "food-type": "South African, Pies",
-      "address": "8280 Clairemont Mesa Blvd",
-      "rating": "★★★★",
+      "foodType": "South African, Pies",
+      "address": "8280 Clairemont Mesa Blvd #117",
+      "address2": "San Diego, CA 92111",
+      "yelpRating": "★★★★✰",
+      "delivery": "Grubhub / Doordash",
+      "takeout": "Yes",
       "site": "http://www.perkysfoods.com/"
-   },
-   {
+    },
+    {
       "name": "One WorldBeat Cafe",
       "neighborhood": "Balboa Park",
-      "food-type": "Caribbean, Vegan",
-      "address": "2100 Park Blvd, San Diego, CA 92101",
-      "rating": "★★★★★",
+      "foodType": "Caribbean, Vegan",
+      "address": "2100 Park Blvd",
+      "address2": "San Diego, CA 92101",
+      "yelpRating": "★★★★★",
+      "delivery": "Grubhub / Doordash / Uber Eats",
+      "takeout": "No (delivery only)",
       "site": "https://www.yelp.com/biz/world-beat-cafe-san-diego"
-   },
-   {
-    "name": "Felix BBQ with Soul",
-    "neighborhood": "Oceanside",
-    "food-type": "BBQ / Soul",
-    "address": "3616 Ocean Ranch Blvd, Oceanside, CA 92056",
-    "rating": "★★★★",
-    "site": "https://www.felixsbbq.com/"
- },
- {
-    "name": "SMACK’N Guamanian Grill",
-    "neighborhood": "Miramar",
-    "food-type": "Guamanian",
-    "address": "506 Miramar Rd.​​​​​​​ San Diego, CA 92126",
-    "rating": "★★★★",
-    "site": "https://www.yelp.com/biz/smackn-guamanian-grill-san-diego"
- },
- {
-    "name": "Perky's South African Food",
-    "neighborhood": "Kearny Mesa",
-    "food-type": "South African, Pies",
-    "address": "8280 Clairemont Mesa Blvd",
-    "rating": "★★★★",
-    "site": "http://www.perkysfoods.com/"
- },
- {
-    "name": "One WorldBeat Cafe",
-    "neighborhood": "Balboa Park",
-    "food-type": "Caribbean, Vegan",
-    "address": "2100 Park Blvd, San Diego, CA 92101",
-    "rating": "★★★★★",
-    "site": "https://www.yelp.com/biz/world-beat-cafe-san-diego"
- },
- {
-  "name": "Felix BBQ with Soul",
-  "neighborhood": "Oceanside",
-  "food-type": "BBQ / Soul",
-  "address": "3616 Ocean Ranch Blvd, Oceanside, CA 92056",
-  "rating": "★★★★",
-  "site": "https://www.felixsbbq.com/"
-},
-{
-  "name": "SMACK’N Guamanian Grill",
-  "neighborhood": "Miramar",
-  "food-type": "Guamanian",
-  "address": "506 Miramar Rd.​​​​​​​ San Diego, CA 92126",
-  "rating": "★★★★",
-  "site": "https://www.yelp.com/biz/smackn-guamanian-grill-san-diego"
-},
-{
-  "name": "Perky's South African Food",
-  "neighborhood": "Kearny Mesa",
-  "food-type": "South African, Pies",
-  "address": "8280 Clairemont Mesa Blvd",
-  "rating": "★★★★",
-  "site": "http://www.perkysfoods.com/"
-},
-{
-  "name": "One WorldBeat Cafe",
-  "neighborhood": "Balboa Park",
-  "food-type": "Caribbean, Vegan",
-  "address": "2100 Park Blvd, San Diego, CA 92101",
-  "rating": "★★★★★",
-  "site": "https://www.yelp.com/biz/world-beat-cafe-san-diego"
-},
-{
-  "name": "Felix BBQ with Soul",
-  "neighborhood": "Oceanside",
-  "food-type": "BBQ / Soul",
-  "address": "3616 Ocean Ranch Blvd, Oceanside, CA 92056",
-  "rating": "★★★★",
-  "site": "https://www.felixsbbq.com/"
-},
-{
-  "name": "SMACK’N Guamanian Grill",
-  "neighborhood": "Miramar",
-  "food-type": "Guamanian",
-  "address": "506 Miramar Rd.​​​​​​​ San Diego, CA 92126",
-  "rating": "★★★★",
-  "site": "https://www.yelp.com/biz/smackn-guamanian-grill-san-diego"
-},
-{
-  "name": "Perky's South African Food",
-  "neighborhood": "Kearny Mesa",
-  "food-type": "South African, Pies",
-  "address": "8280 Clairemont Mesa Blvd",
-  "rating": "★★★★",
-  "site": "http://www.perkysfoods.com/"
-},
-{
-  "name": "One WorldBeat Cafe",
-  "neighborhood": "Balboa Park",
-  "food-type": "Caribbean, Vegan",
-  "address": "2100 Park Blvd, San Diego, CA 92101",
-  "rating": "★★★★★",
-  "site": "https://www.yelp.com/biz/world-beat-cafe-san-diego"
-},
-{
-  "name": "Felix BBQ with Soul",
-  "neighborhood": "Oceanside",
-  "food-type": "BBQ / Soul",
-  "address": "3616 Ocean Ranch Blvd, Oceanside, CA 92056",
-  "rating": "★★★★",
-  "site": "https://www.felixsbbq.com/"
-},
-{
-  "name": "SMACK’N Guamanian Grill",
-  "neighborhood": "Miramar",
-  "food-type": "Guamanian",
-  "address": "506 Miramar Rd.​​​​​​​ San Diego, CA 92126",
-  "rating": "★★★★",
-  "site": "https://www.yelp.com/biz/smackn-guamanian-grill-san-diego"
-},
-{
-  "name": "Perky's South African Food",
-  "neighborhood": "Kearny Mesa",
-  "food-type": "South African, Pies",
-  "address": "8280 Clairemont Mesa Blvd",
-  "rating": "★★★★",
-  "site": "http://www.perkysfoods.com/"
-},
-{
-  "name": "One WorldBeat Cafe",
-  "neighborhood": "Balboa Park",
-  "food-type": "Caribbean, Vegan",
-  "address": "2100 Park Blvd, San Diego, CA 92101",
-  "rating": "★★★★★",
-  "site": "https://www.yelp.com/biz/world-beat-cafe-san-diego"
-},
-{
-  "name": "Felix BBQ with Soul",
-  "neighborhood": "Oceanside",
-  "food-type": "BBQ / Soul",
-  "address": "3616 Ocean Ranch Blvd, Oceanside, CA 92056",
-  "rating": "★★★★",
-  "site": "https://www.felixsbbq.com/"
-},
-{
-  "name": "SMACK’N Guamanian Grill",
-  "neighborhood": "Miramar",
-  "food-type": "Guamanian",
-  "address": "506 Miramar Rd.​​​​​​​ San Diego, CA 92126",
-  "rating": "★★★★",
-  "site": "https://www.yelp.com/biz/smackn-guamanian-grill-san-diego"
-},
-{
-  "name": "Perky's South African Food",
-  "neighborhood": "Kearny Mesa",
-  "food-type": "South African, Pies",
-  "address": "8280 Clairemont Mesa Blvd",
-  "rating": "★★★★",
-  "site": "http://www.perkysfoods.com/"
-},
-{
-  "name": "One WorldBeat Cafe",
-  "neighborhood": "Balboa Park",
-  "food-type": "Caribbean, Vegan",
-  "address": "2100 Park Blvd, San Diego, CA 92101",
-  "rating": "★★★★★",
-  "site": "https://www.yelp.com/biz/world-beat-cafe-san-diego"
-}
+    },
+    {
+      "name": "Awash Ethiopian Restaurant",
+      "neighborhood": "North Park",
+      "foodType": "Ethiopian",
+      "address": "2884 El Cajon Blvd",
+      "address2": "San Diego, CA 92104",
+      "yelpRating": "★★★★✰",
+      "delivery": "Doordash",
+      "takeout": "Yes",
+      "site": "https://www.yelp.com/biz/awash-ethiopian-restaurant-san-diego-2"
+    },
+    {
+      "name": "Gihon",
+      "neighborhood": "North Park",
+      "foodType": "Ethiopian",
+      "address": "2432 El Cajon Blvd",
+      "address2": "San Diego, CA 92104",
+      "yelpRating": "★★★★☆",
+      "delivery": "Doordash / Uber Eats",
+      "takeout": "Yes",
+      "site": "https://www.gihonsd.com/"
+    },
+    {
+      "name": "Streetcar Merchants",
+      "neighborhood": "North Park",
+      "foodType": "Southern / New American",
+      "address": "4002 30th Street",
+      "address2": "San Diego, CA 92104",
+      "yelpRating": "★★★✰☆",
+      "delivery": "Grubhub / Doordash / Postmates / Uber Eats",
+      "takeout": "Yes / Curbside",
+      "site": "https://streetcarmerchants.com/"
+    },
+    {
+      "name": "Louisiana Purchase",
+      "neighborhood": "North Park",
+      "foodType": "New Orleans",
+      "address": "2305 University Ave",
+      "address2": "San Diego, CA 92104",
+      "yelpRating": "★★★★☆",
+      "delivery": "Grubhub / Dordash / Seamless",
+      "takeout": "Yes",
+      "site": "https://www.louisianapurchasesd.com/"
+    },
+    {
+      "name": "Flavors of East Africa",
+      "neighborhood": "North Park / University Heights",
+      "foodType": "East African",
+      "address": "2322 El Cajon Blvd",
+      "address2": "San Diego, CA, 92104",
+      "yelpRating": "★★★★☆",
+      "delivery": "Grubhub / Doordash / Postmates / Uber Eats",
+      "takeout": "Yes",
+      "site": "https://www.flavorsofeastafrica.com/home"
+    },
+    {
+      "name": "Breakfast Bitch",
+      "neighborhood": "Hillcrest",
+      "foodType": "Breakfast / New American",
+      "address": "3825 Fifth Ave",
+      "address2": "San Diego, CA 92103",
+      "yelpRating": "★★★★☆",
+      "delivery": "Grubhub / Doordash / Uber Eats",
+      "takeout": "Yes",
+      "site": "https://eatbreakfastbitch.com/"
+    },
+    {
+      "name": "Rhythm’s Chicken and Waffles",
+      "neighborhood": "Pacific Beach",
+      "foodType": "Southern",
+      "address": "1136 Garnet Ave",
+      "address2": "San Diego, CA 92109",
+      "yelpRating": "★★★★☆",
+      "delivery": "Grubhub",
+      "takeout": "Yes",
+      "site": "http://www.rhythmanddesserts.com/"
+    },
+    {
+      "name": "Coops West Texas BBQ",
+      "neighborhood": "Lemon Grove",
+      "foodType": "BBQ",
+      "address": "2625 Lemon Grove Ave",
+      "address2": "Lemon Grove, CA 91945",
+      "yelpRating": "★★★★✰",
+      "delivery": "Grubhub / Doordash / Postmates / Uber Eats",
+      "takeout": "Yes",
+      "site": "https://www.coopsbbq.com/"
+    },
+    {
+      "name": "Tropical Savor Bar and Grill",
+      "neighborhood": "Gaslamp",
+      "foodType": "Latin-Caribbean",
+      "address": "729 4th Ave",
+      "address2": "San Diego, CA 92101",
+      "yelpRating": "★★★★☆",
+      "delivery": "Grubhub / Doordash / Postmates",
+      "takeout": "Yes",
+      "site": "https://www.yelp.com/biz/tropical-savor-bar-and-grill-san-diego?osq=tropical+savor+bar+and+grill"
+    },
+    {
+      "name": "Rock Steady",
+      "neighborhood": "Golden Hill",
+      "foodType": "Jamaican",
+      "address": "2820 Market Street",
+      "address2": "San Diego, CA 92102",
+      "yelpRating": "★★★★☆",
+      "delivery": "Grubhub",
+      "takeout": "Yes",
+      "site": "https://www.yelp.com/biz/rock-steady-jamaican-restaurant-san-diego"
+    },
+    {
+      "name": "Cane Patch Kitchen",
+      "neighborhood": "Point Loma",
+      "foodType": "Southern",
+      "address": "2820 Historic Decatur",
+      "address2":"Rd San Diego, CA 92106",
+      "yelpRating": "★★★✰☆",
+      "delivery": "n/a",
+      "takeout": "Pick-up only ( Liberty Station Market)",
+      "site": "https://www.yelp.com/biz/cane-patch-kitchen-san-diego"
+    },
+    {
+      "name": "Bowlegged Barbeque",
+      "neighborhood": "City Heights",
+      "foodType": "BBQ",
+      "address": "4255 Market St",
+      "address2": "San Diego, CA 92102",
+      "yelpRating": "★★★★★",
+      "delivery": "Grubhub / Doordash",
+      "takeout": "Yes",
+      "site": "https://www.yelp.com/biz/bowlegged-bbq-san-diego"
+    },
+    {
+      "name": "Pete Mayo’s Original Waffle Burgers",
+      "neighborhood": "City Heights",
+      "foodType": "Comfort / Fast food",
+      "address": "5044 Imperial Ave",
+      "address2": "San Diego, CA 92113",
+      "yelpRating": "★★★★✰",
+      "delivery": "n/a",
+      "takeout": "Yes (not 100% sure)",
+      "site": "https://www.yelp.com/biz/pete-mayos-original-waffleburgers-san-diego"
+    },
+    {
+      "name": "Island Spice",
+      "neighborhood": "College Area / City Heights",
+      "foodType": "Jamaican",
+      "address": "6109 University Ave",
+      "address2": "San Diego, CA 92115",
+      "yelpRating": "★★★★☆",
+      "delivery": "Grubhub / Postmates",
+      "takeout": "Yes",
+      "site": "http://islandspicesandiego.com/"
+    },
+    {
+      "name": "Surf and Soul Spot",
+      "neighborhood": "College East / La Mesa",
+      "foodType": "Soul / Seafood",
+      "address": "7229 El Cajon Blvd",
+      "address2": "San Diego, CA 92115",
+      "yelpRating": "★★★★✰",
+      "delivery": "Grubhub / Doordash",
+      "takeout": "Yes",
+      "site": "http://www.surfandsoulspot.com/"
+    },
+    {
+      "name": "ACKEE Tree Jamaican Cuisine",
+      "neighborhood": "College Area / City Heights",
+      "foodType": "Jamaican",
+      "address": "5712 El Cajon Blvd",
+      "address2": "San Diego, CA, 92115",
+      "yelpRating": "★★★★✰",
+      "delivery": "Grubhub / Postmates",
+      "takeout": "Yes",
+      "site": "https://www.yelp.com/biz/ackee-tree-the-real-jamaican-cuisine-san-diego-2"
+    },
+    {
+      "name": "Spacebar Cafe",
+      "neighborhood": "La Mesa",
+      "foodType": "Breakfast / Acai Bowls",
+      "address": "7454 University Ave Ste A",
+      "address2": "La Mesa, CA 91942",
+      "yelpRating": "★★★★☆",
+      "delivery": "Grubhub / Seamless",
+      "takeout": "Yes",
+      "site": "https://www.yelp.com/biz/spacebar-la-mesa"
+    },
+    {
+      "name": "Extraordinary Banana Pudding",
+      "neighborhood": "La Mesa",
+      "foodType": "Desserts / Pudding",
+      "address": "8257 El Paso St",
+      "address2": "La Mesa, CA 91942",
+      "yelpRating": "★★★★★",
+      "delivery": "Doordash",
+      "takeout": "Yes",
+      "site": "https://www.yelp.com/biz/extraordinary-banana-pudding-la-mesa"
+    },
+    {
+      "name": "Cafe X",
+      "neighborhood": "El Cajon / College Area",
+      "foodType": "Coffee / Tea",
+      "address": "7220 El Cajon Blvd",
+      "address2": "San Diego, CA 92115",
+      "yelpRating": "★★★★★",
+      "delivery": "n/a",
+      "takeout": "Yes",
+      "site": "https://www.byanybeans.org/"
+    },
+    {
+      "name": "Blendees",
+      "neighborhood": "El Cajon",
+      "foodType": "Juice Bars / Smoothies",
+      "address": "1297 E. Main Street",
+      "address2": "El Cajon CA 92021",
+      "yelpRating": "★★★★★",
+      "delivery": "Doordash / Uber Eats",
+      "takeout": "Yes; 11 - 5pm",
+      "site": "https://www.facebook.com/Blendees/"
+    },
+    {
+      "name": "Bankhead Mississippi Style Cooking",
+      "neighborhood": "Spring Valley",
+      "foodType": "Southern / Soul",
+      "address": "8300 Paradise Valley Rd Ste 102-103",
+      "address2": "Spring Valley, CA 91977",
+      "yelpRating": "★★★★☆",
+      "delivery": "Grubhub / Postmates",
+      "takeout": "Yes",
+      "site": "https://www.yelp.com/biz/bankhead-mississippi-style-cooking-spring-valley"
+    },
+    {
+      "hours": "reopen July 1st",
+      "name": "Spoiled Vegans Cafe",
+      "neighborhood": "East Village",
+      "foodType": "Vegan",
+      "address": "440 16th St",
+      "address2": "San Diego, CA 92101",
+      "yelpRating": "★★★★✰",
+      "delivery": "Saturdays Only",
+      "takeout": "Saturdays Only",
+      "site": "https://www.spoiledveganscafe.com/"
+    },
+    {
+      "hours": "Limited Hours",
+      "name": "Sabor Piri Piri Kitchen",
+      "neighborhood": "Kearny Mesa / Online",
+      "foodType": "Southeast African",
+      "address": "8360 Clairemont Mesa Blvd",
+      "address2": "San Diego, CA 92111",
+      "yelpRating": "★★★★★",
+      "delivery": "Yes; Online - order ahead / SUNDAYS ONLY",
+      "takeout": "Pickup 4:30 - 7:30",
+      "site": "https://www.saborpiripirikitchen.com/"
+    },
+    {
+
+      "name": "Sucker Free South Plate and Bar",
+      "neighborhood": "Downtown / Gaslamp",
+      "foodType": "Southern / Soul",
+      "address": "751 Fourth Ave",
+      "address2": "San Diego, CA 92101",
+      "yelpRating": "★★★★☆",
+      "delivery": "Grubhub / Foursquare / Seamless / Postmates",
+      "takeout": "reopening june 15",
+      "site": "https://eatsuckerfree.com/"
+    },
+    {
+      "hours": "Closed for COVID",
+      "name": "The Morning After",
+      "neighborhood": "Downtown / Gaslamp",
+      "foodType": "Breakfast",
+      "address": "531 F Street",
+      "address2": "San Diego, CA 92101",
+      "yelpRating": "address",
+      "delivery": "TEMPORARILY CLOSED",
+      "takeout": "address",
+      "site": "https://www.themorningaftersd.com/"
+    },
+    {
+      "hours": "Closed for COVID",
+      "name": "The Protein Plate",
+      "neighborhood": "Chula Vista",
+      "foodType": "Breakfast/Brunch",
+      "address": "2322 Proctor Valley Rd",
+      "address2": "Chula Vista, CA 91914",
+      "yelpRating": "address",
+      "delivery": "TEMPORARILY CLOSED",
+      "takeout": "address",
+      "site": "http://www.theproteinplate.com/"
+    },
+    {
+      "hours": "Closed for COVID",
+      "name": "Da South in Ya Mouth",
+      "neighborhood": "Fallbrook",
+      "foodType": "Southern",
+      "address": "1247 S Mission Rd",
+      "address2": "Fallbrook, CA 92028",
+      "yelpRating": "address",
+      "delivery": "TEMPORARILY CLOSED",
+      "takeout": "address",
+      "site": "https://www.facebook.com/dasouthinyamouth/"
+    },
+    {
+      "hours": "Closed for COVID",
+      "name": "AJ’s Creole Cuisine and West Coast Smokehouse",
+      "neighborhood": "Food truck",
+      "foodType": "Cajun / Creole / BBQ",
+      "address": "Location Varies",
+      "address2": "See Website",
+      "yelpRating": "★★★★★",
+      "delivery": "TEMPORARILY CLOSED",
+      "takeout": "reopening June 19",
+      "site": "https://www.ajscreole.com/"
+    },
+    {
+      "hours": "Closed for COVID",
+      "name": "Sip Wine and Beer",
+      "neighborhood": "Escondido",
+      "foodType": "Beer / Wine Tasting",
+      "address": "131 S Orange St",
+      "address2": "Escondido, CA 92025",
+      "yelpRating": "★★★★★",
+      "delivery": "TEMPORARILY CLOSED",
+      "takeout": "address",
+      "site": "http://www.sipwineandbeer.com/"
+    }
   ]
 }
