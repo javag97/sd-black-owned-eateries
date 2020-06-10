@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7a2c40c7-d46c-4602-800a-afcac272a419/deploy-status)](https://app.netlify.com/sites/focused-murdock-f0bd03/deploys)
+
+
 # 11ty Starter
 
 The goal of this project is to bring together what I believe are most pragmatic and performant frontend frameworks and tools into a cohesive template for making web development wonderful.
