@@ -1,0 +1,18 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+publish_mode: editorial_workflow
+collections:
+  - label: "Restaurant"
+    name: "restaurant"
+    folder: "_data"
+    create: true
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Location", name: "neighborhood", widget: "string"}
+      - {label: "Food Type", name: "foodType", widget: "string"}
+      - {label: "Address", name: "address", widget: "string"}
+      - {label: "Address", name: "address2", widget: "string"}
+      - {label: "Link", name: "site", widget: "string" }
+media_folder: ""
+public_folder: ""
